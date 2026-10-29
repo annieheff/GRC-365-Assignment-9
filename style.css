@@ -1,0 +1,55 @@
+p {
+    font-family: "Andika", sans-serif;
+}
+
+#page {
+    max-width: 1024px;
+    height: 1224px;
+    background: #fffef3;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 15px 5px #888888;
+    padding: 26px;
+    width: 100vw;
+}
+
+img {
+  float: left;
+  margin-right: 26px;
+}
+
+
+.andika-regular {
+  font-family: "Andika", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.andika-bold {
+  font-family: "Andika", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.andika-regular-italic {
+  font-family: "Andika", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.andika-bold-italic {
+  font-family: "Andika", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@media (max-width: 400px){
+  img {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+}
